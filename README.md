@@ -41,3 +41,9 @@ small quantities before trusting it with size.
 ```bash
 python -m pytest trading_bot/tests
 ```
+
+## Live bot (Routine)
+
+The account is actually run by a claude.ai Routine, not the script above.
+Its prompt lives in `routines/vol_target_tqqq.md` (volatility-targeted
+TQQQ/SHY, monthly rebalance). The research behind it is in `backtest/`.
